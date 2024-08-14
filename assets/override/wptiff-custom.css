@@ -1,0 +1,2156 @@
+/* Custom CSS */
+
+.wave-form-container h1.wave-form-title {
+    text-align: center;
+    font-size: 50px !important;
+    padding-bottom: 30px !important;
+    color: var(--clr-primary) !important;
+}
+
+.wave-form-container p.wave-form-description {
+    font-size: 16px !important;
+}
+
+.wave-form-container h3.wave-appointment-scheduler-title {
+    color: var(--clr-primary) !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+.wave-form-container p.wave-appointment-scheduler-description {
+    font-size: 16px !important;
+    padding-bottom: 10px !important;
+}
+
+.wave-form-container p.wave-appointment-scheduler-help-text {
+    padding-bottom: 20px !important;
+}
+
+.wave-form-container .table-date-header .day-of-week {
+    color: #FA6D4F !important;
+}
+
+.wave-form-container p.wave-form-warning {
+    text-align: center !important;
+    font-size: 16px !important;
+}
+
+.wave-appointment-scheduler-please-call-me,
+.wave-table a {
+    color: var(--clr-primary) !important;
+}
+
+#WAVE-appointment-scheduler {
+    padding-top: 30px !important;
+}
+
+.contact-page.contact-testimonials .et_pb_column.et-last-child {
+    display: flex !important;
+    align-items: center;
+}
+
+
+/* .video-testimonials-section .et_pb_video_box video:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url('/HolyCity-video-play.svg');
+} */
+
+.header-section.et_pb_section {
+    top: 0 !important;
+}
+
+.empty-header-section.et_pb_section {
+    height: 108px;
+}
+
+.video-testimonials-section .et_pb_video_overlay {
+    background-position: unset !important;
+}
+
+.video-testimonials-section .et_pb_video_play {
+    color: #FA6D4F !important;
+}
+
+.patients-page.hero-section .hero-contact-blurbs {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.orth-care-blurbs .et_pb_column {
+    display: flex;
+}
+
+.orth-care-blurbs .et_pb_column .et_pb_blurb {
+    padding-bottom: 20px;
+}
+
+/*-------------about-page-----------*/
+.about-page.hero-section h1,
+.patients-page.hero-section h1,
+.contact-page.hero-section h1 {
+    margin-bottom: 20px;
+    font-size: 55px !important;
+    line-height: 74px !important;
+}
+
+.about-page.hero-section.et_pb_section,
+.patients-page.hero-section.et_pb_section {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+}
+
+.about-page.hero-section h2,
+.patients-page.hero-section h2,
+.contact-page.hero-section h2 {
+    font-family: var(--ff-body) !important;
+    /* font-weight: 300 !important; */
+    font-size: 25px !important;
+    line-height: 38px !important;
+}
+
+.about-page .hero-contact-blurbs.et_pb_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-page .hero-contact-blurbs .et_pb_column:not(.et-last-child),
+.patients-page .hero-contact-blurbs .et_pb_column:not(.et-last-child) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-page.hero-section .et_pb_button_module_wrapper,
+.patients-page.hero-section .et_pb_button_module_wrapper,
+.about-page.how-we-treat .et_pb_button_module_wrapper,
+.patients-page.how-we-treat .et_pb_button_module_wrapper,
+.services-page.how-we-treat .et_pb_button_module_wrapper {
+    text-align: center !important;
+}
+
+.about-page.how-we-treat.et_pb_section,
+.patients-page.how-we-treat.et_pb_section,
+.services-page.how-we-treat .et_pb_section {
+    padding-block: var(--space7);
+}
+
+.about-page.how-we-treat .et_pb_row {
+    max-width: 870px !important;
+}
+
+.patients-page.how-we-treat .et_pb_row {
+    max-width: 760px !important;
+}
+
+.about-page.how-we-treat p,
+.patients-page.how-we-treat p,
+.services-page.how-we-treat p {
+    margin-bottom: var(--space3) !important;
+}
+
+.services-page.how-we-treat p {
+    max-width: 870px !important;
+    margin-inline: auto;
+}
+
+.about-page.meet-the-doctor-section .quote p {
+    font-family: 'Playfair Display' !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 35px !important;
+}
+
+.about-page.meet-the-doctor-section .et_pb_row {
+    align-items: inherit !important;
+    align-content: stretch !important;
+}
+
+.about-page.meet-the-doctor-section .et_pb_column.et-last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-page.meet-the-doctor-section .et_pb_column:not(.et-last-child) {
+    min-height: 600px;
+}
+
+.about-page.about-the-doctor-section .et_pb_blurb,
+.about-page.awards-section .et_pb_blurb {
+    margin-bottom: 10px !important;
+}
+
+.about-page.about-the-doctor-section .et_pb_blurb .et-pb-icon,
+.about-page.awards-section .et_pb_blurb .et-pb-icon {
+    font-size: 20px !important;
+}
+
+.about-page.about-the-doctor-section .et_pb_blurb_content,
+.about-page.awards-section .et_pb_blurb_content {
+    display: flex;
+    align-items: center;
+}
+
+.about-page.about-the-doctor-section .et_pb_blurb .et_pb_blurb_container {
+    max-width: 430px;
+}
+
+.about-page.about-the-doctor-section .last-blurb .et_pb_blurb_content {
+    align-items: flex-start !important;
+}
+
+.about-page.about-the-doctor-section .et_pb_main_blurb_image {
+    display: flex;
+    margin-bottom: 0 !important;
+}
+
+/* .about-page.about-the-doctor-section .et_pb_column.et-last-child .et_pb_image {
+    height: 480px !important;
+} */
+
+.about-page.about-the-doctor-section .et_pb_blurb_container h4,
+.about-page.awards-section .et_pb_blurb_container h4 {
+    line-height: 30px !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+.about-page.about-the-doctor-section .et_pb_blurb_container span,
+.about-page.awards-section .et_pb_blurb_container span {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    font-family: var(--ff-body) !important;
+    line-height: 30px !important;
+}
+
+.about-page.awards-section .awards-row .et_pb_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
+
+.about-page.awards-section .award-blurb.et_pb_blurb {
+    padding: 16px 23px;
+    background-color: #DDFAFB;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 0 !important;
+}
+
+.about-page.awards-section .et_pb_blurb_content {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.about-page.awards-section .et_pb_main_blurb_image {
+    flex-shrink: inherit;
+    margin-bottom: 0;
+    display: flex;
+    height: 90px;
+    width: 90px !important;
+    align-items: center;
+}
+
+.about-page.awards-section.et_pb_section {
+    padding-top: 60px !important;
+}
+
+.about-page .our-team-title.et_pb_row {
+    padding-bottom: var(--space3) !important;
+}
+
+.about-page.our-team.et_pb_section {
+    padding-bottom: 130px !important;
+}
+
+.about-page .team-member-row .et_pb_column {
+    display: flex;
+    align-items: center;
+}
+
+.about-page .team-member-row h3 {
+    margin-bottom: 15px !important;
+}
+
+.about-page .team-member-row {
+    padding: 20px;
+    border: 1px solid var(--clr-primary);
+    margin-block: 30px;
+}
+
+.about-page .team-member-row.first-member {
+    padding-right: 40px;
+}
+
+.about-page .team-member-row.second-member {
+    padding-left: 40px;
+}
+
+.about-page .services-details-row h2 {
+    margin-bottom: 40px !important;
+}
+
+/*------------------new patients page-------------*/
+
+.initial-consultation-section.et_pb_section {
+    padding-block: 85px !important;
+}
+
+.initial-consultation-section .title-row {
+    padding-bottom: 40px !important;
+}
+
+.initial-consultation-section .title-row p {
+    max-width: 680px;
+    margin-inline: auto;
+}
+
+.initial-consultation-section .consultation-blurbs .et_pb_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.initial-consultation-section .consultation-blurbs .et_pb_blurb .et_pb_blurb_content img {
+    width: 95px !important;
+    height: 95px !important;
+}
+
+.initial-consultation-section .consultation-blurbs .et_pb_blurb .et_pb_blurb_content p {
+
+    max-width: 310px;
+    margin-inline: auto;
+
+}
+
+.orth-care-blurbs .et_pb_blurb {
+    padding: 40px 50px 0;
+    min-height: 407px;
+    border: 1px solid #FA6D4F;
+}
+
+.orth-care-blurbs.et_pb_row,
+.videos-row.et_pb_row {
+    gap: 25px;
+}
+
+.orth-care-blurbs .et_pb_blurb .et_pb_blurb_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.orth-care-blurbs .et_pb_blurb .et_pb_main_blurb_image img {
+    height: 85px;
+    width: 85px;
+}
+
+.orth-care-blurbs .et_pb_blurb .et_pb_blurb_container h4 {
+    color: var(--clr-primary);
+}
+
+.patients-page.orthodontic-care-section.et_pb_section {
+    padding-block: 80px 60px;
+}
+
+.patients-page.orthodontic-care-section h2,
+.video-testimonials-section h2 {
+    padding-bottom: 20px !important;
+}
+
+
+/*---------------contact page-------------*/
+.contact-page.contact-section.et_pb_section {
+    padding-top: 80px !important;
+}
+
+.contact-testimonials-row.et_pb_row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-page.hero-section.et_pb_section {
+    padding-block: 240px !important;
+    /* background-position: bottom; */
+    /* background-size: contain; */
+}
+
+.testimonial-code-column {
+    background-color: var(--clr-primary);
+}
+
+.contact-page.contact-testimonials h2 {
+    margin-bottom: 30px !important;
+}
+
+.contact-page.contact-testimonials.et_pb_section {
+    padding-bottom: 100px !important;
+}
+
+.contact-testimonials-row .testimonials-slider {
+    padding-block: 40px;
+}
+
+.contact-testimonials-row .et_pb_column:not(.et_pb_column.testimonial-code-column) {
+    min-height: 500px !important;
+}
+
+.contact-testimonials-row.et_pb_row::after {
+    position: absolute;
+}
+
+/* -------------services page ----------- */
+
+.services-page.how-we-treat .et_pb_row {
+    padding-block: 70px !important;
+}
+
+.services-page.options.et_pb_section {
+    padding-block: 50px 110px !important;
+}
+
+.services-page.options h4 {
+    font-family: "Larosa Light" !important;
+    font-size: 25px !important;
+    line-height: 28px !important;
+    letter-spacing: 10.5px !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--clr-white);
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+}
+
+.services-page.options .options-row {
+    display: flex;
+    gap: 25px;
+}
+
+.services-page.options .options-row .et_pb_column {
+    border: 3px solid #FA6D4F;
+    background-color: #FFFDFC;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding-block: 70px;
+    flex-direction: column;
+}
+
+.services-page.options .et_pb_text {
+    margin-bottom: 0 !important;
+}
+
+.services-page.options .et_pb_text h4 {
+    padding-inline: 24px !important;
+}
+
+.services-page.options .et_pb_text p {
+    padding-inline: 50px;
+    margin-top: auto;
+}
+
+.services-page.environment.et_pb_section {
+    padding-block: 80px !important;
+}
+
+.services-page.environment .title-row h2 {
+    margin-bottom: 30px !important;
+}
+
+.services-page.environment .title-row p {
+    max-width: 685px;
+    margin-inline: auto;
+}
+
+.services-page.environment .et_pb_button_module_wrapper {
+    text-align: center;
+}
+
+.services-page.environment .environment-blurbs-row.et_pb_row {
+    max-width: var(--mw-s) !important;
+}
+
+.services-page.environment .environment-blurbs-row .et_pb_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.services-page.environment .environment-blurbs-row .et_pb_blurb {
+    border: 1px solid #FA6D4F;
+    max-width: 312px !important;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.services-page.environment .environment-blurbs-row .et_pb_main_blurb_image img {
+    width: 90px;
+    height: 90px;
+}
+
+.et_pb_section {
+    z-index: 1 !important;
+}
+
+.hero-section.et_pb_section .et_pb_section_video_bg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 1%, rgba(0, 0, 0, 0.35) 100%) !important;
+}
+
+.reveal-row.disabled {
+    height: 0 !important;
+    padding-block: 0 !important;
+    overflow: hidden;
+}
+
+.services-details-row .et_pb_blurb strong,
+.footer-section .footer-pages a {
+    font-family: "Larosa Light";
+    font-size: 22px !important;
+}
+
+.hero-section .et_pb_button_module_wrapper a.primary-button,
+.cta .et_pb_button_module_wrapper a.primary-button,
+.services-details-row .et_pb_button_module_wrapper a.et_pb_button.secondary-button,
+.about-page.how-we-treat .et_pb_button_module_wrapper a.primary-button,
+.patients-page.how-we-treat .et_pb_button_module_wrapper a.primary-button,
+.services-page.how-we-treat .et_pb_button_module_wrapper a.primary-button {
+    padding-top: 15px !important;
+    background-color: #fa6d4f !important;
+}
+
+.services-details-row .et_pb_button_module_wrapper a.et_pb_button.secondary-button,
+.about-page.how-we-treat .et_pb_button_module_wrapper a.primary-button,
+.patients-page.how-we-treat .et_pb_button_module_wrapper a.primary-button,
+.services-page.how-we-treat .et_pb_button_module_wrapper a.primary-button {
+    padding-top: 15px !important;
+    border: 1px solid #fa6d4f !important;
+}
+
+.services-details-row .et_pb_button_module_wrapper a.et_pb_button.secondary-button:hover {
+    padding-top: 15px !important;
+    color: #fa6d4f !important;
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+
+.about-page.how-we-treat .et_pb_button_module_wrapper a.primary-button:hover,
+.patients-page.how-we-treat .et_pb_button_module_wrapper a.primary-button:hover,
+.services-page.how-we-treat .et_pb_button_module_wrapper a.primary-button:hover {
+    padding-top: 15px !important;
+    color: #fa6d4f !important;
+    background-color: white !important;
+    border: 1px solid #fa6d4f !important;
+}
+
+.hero-section.et_pb_section .et_pb_button_module_wrapper a.et_pb_button.primary-button:hover,
+.cta.et_pb_section .et_pb_button_module_wrapper a.et_pb_button.primary-button:hover {
+    padding-top: 15px !important;
+    color: #fa6d4f !important;
+}
+
+.header-section.et_pb_section {
+    padding-block: var(--space1) !important;
+    position: fixed !important;
+    width: 100%;
+}
+
+.header-section .et_pb_row {
+    padding-block: 0 !important;
+    max-width: var(--mw-l) !important;
+}
+
+
+.et_pb_menu .et_pb_menu__menu>nav>ul {
+    display: flex;
+    align-items: center !important;
+    gap: 90px;
+}
+
+.et_pb_menu--with-logo .et_pb_menu__menu>nav>ul>li>a {
+    font-family: "Larosa Light" !important;
+    font-size: 17px !important;
+    line-height: 26px !important;
+    font-weight: 900 !important;
+    color: var(--clr-primary) !important;
+}
+
+.et_pb_menu--with-logo .et_pb_menu__menu .menu-item-type-custom a {
+    font-weight: 600 !important;
+}
+
+.et_pb_menu--with-logo .et_pb_menu__menu .menu-item-type-custom a::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url("/holycity-call");
+    position: absolute;
+    transform: translate(-150%, -10%);
+}
+
+#menu-main-nav .nav-button.menu-item a {
+    font-family: "Larosa Black" !important;
+    font-weight: 500 !important;
+    line-height: var(--lh-p) !important;
+    font-size: var(--fs-p) !important;
+    border-radius: 26px !important;
+    color: var(--clr-white) !important;
+    background-color: var(--clr-primary) !important;
+    text-align: center;
+    padding: 10px 40px !important;
+    border: 1px solid var(--clr-primary);
+    margin-bottom: 0 !important;
+    padding-top: 15px !important;
+}
+
+.hero-section .et_pb_blurb {
+    margin-bottom: 15px !important;
+}
+
+.hero-section .et_pb_blurb a {
+    color: #ffffff !important;
+    font-size: 25px !important;
+    font-family: "Larosa Light" !important;
+    line-height: 27px !important;
+}
+
+.hero-section .et_pb_blurb_content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .et_pb_main_blurb_image {
+    width: 42px !important;
+    margin-bottom: 0 !important;
+}
+
+.hero-section .et_pb_button_module_wrapper {
+    margin-top: 30px !important;
+}
+
+.hero-section h2 {
+    font-family: "Larosa Light" !important;
+    font-weight: 400 !important;
+}
+
+.hero-section.et_pb_section {
+    padding-block: var(--space14);
+}
+
+.meet-the-doctor.et_pb_section {
+    padding-block: 150px;
+}
+
+.meet-the-doctor .text-column.et_pb_column {
+    padding-block: 50px;
+}
+
+.testimonials.et_pb_section {
+    padding: 0;
+}
+
+.testimonials .testimonial-block h2,
+.testimonial-code-column .testimonial-block h2 {
+    color: white !important;
+    margin-bottom: var(--space5);
+}
+
+.testimonials .testimonial-text,
+.testimonial-code-column .testimonial-text {
+    color: var(--clr-white);
+    margin-block: var(--space2);
+}
+
+.testimonials .testimonial-name,
+.testimonial-code-column .testimonial-name {
+    font-weight: 600 !important;
+    color: var(--clr-white);
+}
+
+.testimonials-img-column.et_pb_column {
+    min-height: 710px;
+}
+
+.testimonials .et_pb_row {
+    padding-block: 0;
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-primary);
+}
+
+.testimonials .et_pb_row .et_pb_text h2.text-primary {
+    color: white !important;
+}
+
+.testimonials .et_pb_code {
+    margin-left: auto;
+    margin-right: 180px;
+}
+
+.clip-star {
+    background: #faa887;
+    clip-path: polygon(50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+    display: inline-block;
+    height: 23px;
+    width: 25px;
+}
+
+.our-treatments .our-treatments-img.et_pb_row,
+.before-after-row-images.et_pb_row,
+.reveal-row.et_pb_row {
+
+    gap: 25px;
+}
+
+.reveal-row.et_pb_row .et_pb_module {
+    margin-bottom: 25px !important;
+}
+
+
+.reveal-btn-row .et_pb_button_module_wrapper {
+    text-align: center !important;
+}
+
+.before-after-row-images .et_pb_column img {
+    min-height: 450px;
+    max-width: 410px;
+}
+
+.our-treatments-img .et_pb_column {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.our-treatments .our-treatments-img h3.small {
+    font-family: "Larosa Light" !important;
+    font-size: 25px !important;
+    line-height: 28px !important;
+    letter-spacing: 12.5px !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--clr-white);
+    font-weight: 400 !important;
+}
+
+.our-treatments.et_pb_section {
+    padding-top: var(--space10);
+    padding-bottom: var(--space10);
+}
+
+/* .our-treatments-overlay:before h6 {
+    bottom: 50%;
+    position: relative;
+} */
+
+.our-treatments-overlay {
+    overflow: hidden;
+}
+
+.our-treatments-overlay:before {
+    content: "";
+    z-index: -1;
+    inset: 0;
+    position: absolute;
+    background-image: linear-gradient(0deg,
+            rgba(27, 189, 195, 1),
+            transparent 100%);
+    /* background-position: bottom; */
+    transition: background-position 1s, height 1s;
+    height: 25%;
+    top: auto;
+}
+
+.our-treatments-overlay:hover:before {
+    background-position: top;
+    height: 150%;
+}
+
+.our-treatments-overlay h6 {
+    font-weight: 400 !important;
+}
+
+.our-treatments-overlay .et_pb_text {
+    bottom: 15px;
+    max-width: 350px !important;
+    transform: translate(-50%, 100px);
+    left: 50%;
+    transition: all 1s;
+}
+
+.our-treatments-overlay .et_pb_text p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    line-height: 27px;
+    padding-top: 25px;
+    padding-inline: 10px;
+}
+
+.our-treatments-overlay:hover .et_pb_text {
+    position: relative;
+    bottom: 30% !important;
+    left: 50%;
+    transform: translateY(0%);
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+.cta.et_pb_section {
+    min-height: 700px;
+    display: flex;
+}
+
+.cta .et_pb_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 280px;
+}
+
+.cta h2 {
+    color: var(--clr-white);
+}
+
+.before-after-row-images.et_pb_row {
+    padding-block: 0;
+}
+
+.before-after-section.et_pb_section {
+    padding-block: var(--space11);
+}
+
+/* .before-after-section .girl:before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  background-image: url("/holycity-ba-girl2");
+  background-size: contain;
+  z-index: 2;
+} */
+
+/* .before-after-section .woman:before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  background-image: url("/holycity-ba-woman2");
+  background-size: contain;
+  z-index: 22;
+}
+
+.before-after-section .man:before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  background-image: url("/holycity-ba-man2");
+  background-size: contain;
+  z-index: 2;
+} */
+
+.services-img-row {
+    min-height: 600px;
+}
+
+.services-details-row {
+    margin-top: -150px;
+    max-width: 1032px !important;
+}
+
+.services-details-row .et_pb_column {
+    padding: var(--space7) var(--space10);
+}
+
+.services-details-row p,
+.services-details-row h2 {
+    color: var(--clr-white);
+}
+
+.services-blurb .et_pb_main_blurb_image .et-pb-icon {
+    line-height: 30px;
+    font-size: 26px !important;
+    color: #faa887 !important;
+}
+
+.services-blurb .et_pb_main_blurb_image {
+    display: flex !important;
+    align-items: flex-start;
+}
+
+.services-blurb .et_pb_blurb_content {
+    padding-block: 10px;
+}
+
+.services-blurb .et_pb_blurb_content p {
+    font-weight: lighter !important;
+}
+
+.services-section.et_pb_section {
+    padding-block: var(--space10);
+}
+
+.services-section .secondary-button {
+    margin-top: 30px !important;
+}
+
+.gallery-section.et_pb_section {
+    padding-inline: 0;
+    padding-top: 0;
+}
+
+.gallery-section.et_pb_section .et_pb_column {
+    min-height: 700px;
+}
+
+.contact-section .et_pb_blurb_content a,
+.contact-section .et_pb_blurb_content p,
+.contact-section .et_pb_text_inner p {
+    color: #464646 !important;
+    font-size: 17px !important;
+    line-height: 26px !important;
+}
+
+.contact-section .et_pb_blurb {
+    margin-bottom: 0 !important;
+}
+
+.contact-section .contact-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-section .et_pb_blurb.et_pb_with_border .et-pb-icon {
+    font-size: 16px !important;
+    padding: 13px;
+    line-height: 15px;
+    border: 1px solid #1bbdc3;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    place-items: center;
+}
+
+.contact-section .et_pb_row {
+    align-items: center !important;
+}
+
+.contact-section .contact-column .et_pb_text {
+    margin-bottom: 10px !important;
+}
+
+.trust-badges .et_pb_row,
+.trust-badges .et_pb_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trust-badges .et_pb_image img {
+    max-height: 120px;
+    object-fit: contain;
+    aspect-ratio: 1;
+}
+
+.trust-badges.et_pb_section {
+    padding-block: var(--space5);
+}
+
+
+.footer-section .footer-contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-section .footer-contact-details .et_pb_blurb_content,
+.contact-section .et_pb_blurb_content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .footer-contact-details .et_pb_main_blurb_image,
+.contact-section .et_pb_main_blurb_image {
+    width: 42px !important;
+    flex-shrink: 0;
+    margin-bottom: 0 !important;
+}
+
+.footer-section .footer-pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section .footer-text {
+    padding-block: var(--space3) !important;
+    display: grid;
+    grid-template-columns: 1fr 400px 300px;
+    column-gap: 30px;
+    max-width: 1100px !important;
+}
+
+.footer-section .et_pb_social_media_follow {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-section.et_pb_section {
+    padding-top: var(--space5);
+    padding-inline: 0 !important;
+}
+
+.subfooter-row p {
+    background-color: var(--clr-primary);
+    max-width: 100%;
+}
+
+.subfooter-row a,
+.subfooter-row p {
+    font-size: 15px !important;
+    line-height: 55px !important;
+}
+
+.footer-text:after {
+    position: absolute;
+}
+
+.footer-section .footer-contact-details,
+.footer-section .footer-pages,
+.footer-section .footer-links {
+    width: 100% !important;
+}
+
+.footer-section .footer-links {
+    max-width: fit-content;
+}
+
+.footer-section .footer-pages a {
+    line-height: 58px !important;
+}
+
+.footer-section .msg-blurb a,
+.footer-section .phone-blurb a,
+.contact-section .msg-blurb a,
+.contact-section .phone-blurb a {
+    letter-spacing: 1.8px !important;
+}
+
+.testimonials-first-col {
+    padding-block: 50px !important;
+}
+
+.testimonial-title {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 180px;
+}
+
+.testimonial-title h2 {
+    margin-bottom: 50px !important;
+}
+
+.testimonials-slider .owl-carousel .owl-stage-outer {
+    height: 350px !important;
+}
+
+#page-container .testimonials-slider .owl-nav>button {
+    position: relative !important;
+    margin-top: 0 !important;
+    top: 0 !important;
+    width: 52px !important;
+    height: 52px !important;
+    border: 1px solid var(--clr-white) !important;
+    border-radius: 100% !important;
+    background: none !important;
+}
+
+#page-container .testimonials-slider .owl-nav>button.owl-prev {
+    left: 0;
+}
+
+#page-container .testimonials-slider .owl-nav>button.owl-next {
+    right: 0;
+}
+
+#page-container .testimonials-slider .owl-nav>button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid var(--clr-white);
+    border-left: 1px solid var(--clr-white);
+    left: 50%;
+    top: 50%;
+}
+
+#page-container .testimonials-slider .owl-nav>button.owl-prev::before {
+    transform: translate(-25%, -50%) rotate(45deg);
+}
+
+#page-container .testimonials-slider .owl-nav>button.owl-next::before {
+    transform: translate(-75%, -50%) rotate(225deg);
+}
+
+#page-container .testimonials-slider .owl-nav {
+    display: flex !important;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+#page-container a.et_pb_button.reveal-button:hover {
+    color: var(--clr-primary) !important;
+    border: 1px solid var(--clr-primary) !important;
+}
+
+.reveal-row .et_pb_column img {
+    min-height: 300px;
+    max-width: 410px;
+}
+
+/* end custom */
+@media (min-width: 981px) {
+
+    /* end desktop only */
+    .contact-testimonials-row.et_pb_row {
+        padding-inline: 20px !important;
+    }
+
+    #rmp_menu_trigger-237404 {
+        display: none;
+    }
+
+    .services-page.how-we-treat.et_pb_section {
+        padding-block: var(--space10) var(--space8) !important;
+    }
+}
+
+@media (min-width: 981px) and (max-width: 1279px) {
+
+    /* end 1024 only */
+
+    .about-page.meet-the-doctor-section .et_pb_column.et-last-child {
+        padding-block: 30px !important;
+    }
+
+    .about-page.our-team.et_pb_section {
+        padding-bottom: 0px !important;
+    }
+
+    .services-page.options .options-row .et_pb_column {
+        border: 3px solid #FA6D4F;
+        background-color: #FFFDFC;
+        min-height: 425px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-block: 50px;
+    }
+
+    .services-page.options .et_pb_text h4 {
+        letter-spacing: 2.5px !important;
+    }
+
+    .services-page.options .et_pb_text p {
+        padding-inline: 20px;
+    }
+
+    .patients-page.hero-section.et_pb_section {
+        background-position-x: 22%;
+    }
+
+    .empty-header-section.et_pb_section {
+        height: 108px;
+    }
+
+    .trust-badges .et_pb_image {
+        margin: auto;
+        min-width: 150px !important;
+        text-align: center !important;
+    }
+
+    .about-page.about-page.about-the-doctor-section .et_pb_row {
+        padding-block: 50px !important;
+    }
+
+    .et_pb_menu__menu>nav {
+        padding-block: 10px !important;
+    }
+
+    .et_pb_menu .et_pb_menu__menu>nav>ul {
+        gap: 10px;
+    }
+
+    .header-section.et_pb_section {
+        padding-block: 0 !important;
+        padding-inline: var(--space2) !important;
+    }
+
+    .header-section .et_pb_menu__logo img,
+    .footer-logo .et_pb_image_wrap img {
+        max-width: 200px;
+    }
+
+    .hero-section.et_pb_section {
+        margin-bottom: var(--space6);
+    }
+
+    .meet-the-doctor.et_pb_section,
+    .testimonials.et_pb_section {
+        padding-block: var(--space6);
+    }
+
+    .meet-the-doctor .et_pb_row {
+        padding-block: 0 !important;
+    }
+
+    .testimonials .et_pb_code {
+        margin-left: 40px;
+        margin-right: 130px;
+    }
+
+    .testimonial-title {
+        max-width: 400px;
+        margin-right: 120px;
+        margin-left: 40px;
+    }
+
+    .testimonials .owl-carousel .owl-nav .owl-next:after {
+        right: 600% !important;
+    }
+
+    .services-section.et_pb_section {
+        padding-inline: 0 !important;
+    }
+
+    .services-details-row {
+        max-width: var(--mw-s) !important;
+    }
+
+    .cta.et_pb_section {
+        min-height: 600px;
+        display: block;
+        margin-block: 60px !important;
+    }
+
+    .before-after-row-images .et_pb_column img {
+        min-height: 300px;
+        max-width: 100%;
+    }
+
+    .before-after-section .girl:before,
+    .before-after-section .woman:before,
+    .before-after-section .man:before {
+        width: 100px;
+        height: 100px;
+    }
+
+    .before-after-section.et_pb_section,
+    .services-section.et_pb_section,
+    .our-treatments.et_pb_section,
+    .gallery-section.et_pb_section,
+    .contact-section.et_pb_section {
+        padding-block: var(--space6);
+    }
+
+    .our-treatments-img.et_pb_row {
+        padding-block: 0 !important;
+    }
+
+    .our-treatments-overlay .et_pb_text p {
+        font-size: 15px !important;
+    }
+
+    .before-after-section.et_pb_text {
+        margin-bottom: var(--space6) !important;
+    }
+
+    .before-after-row-images.et_pb_row:after {
+        position: absolute;
+    }
+
+    .gallery-section .et_pb_column {
+        min-height: 350px !important;
+    }
+
+    .gallery-section .et_pb_row,
+    .contact-section.et_pb_row,
+    .before-after-section .et_pb_row {
+        padding-block: 0 !important;
+    }
+
+    .footer-section .footer-text {
+        grid-template-columns: 1fr 1fr 200px;
+        column-gap: 10px;
+        padding-inline: 40px;
+    }
+
+    .footer-section {
+        background-size: 46% auto !important;
+    }
+
+    .footer-section .footer-text {
+        padding-block: var(--space6) !important;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+    /* end 1280 only */
+    .empty-header-section.et_pb_section {
+        height: 88px;
+    }
+
+    .et_pb_menu .et_pb_menu__menu>nav>ul {
+        display: flex;
+        align-items: center !important;
+        gap: 30px !important;
+    }
+
+    .hero-section.et_pb_section {
+        padding-block: var(--space13) !important;
+    }
+
+    .header-section.et_pb_section {
+        padding-block: 0 !important;
+    }
+
+    .meet-the-doctor.et_pb_section {
+        padding-block: var(--space7);
+    }
+
+    .gallery-section.et_pb_section .et_pb_column {
+        min-height: 450px;
+    }
+
+    .before-after-row-images .et_pb_column img {
+        min-height: 380px;
+        max-width: 370px;
+    }
+
+    .our-treatments.et_pb_section {
+        padding-top: var(--space7);
+        padding-bottom: var(--space7);
+    }
+
+    .before-after-section.et_pb_section {
+        padding-block: var(--space7);
+    }
+
+    .trust-badges .et_pb_row {
+        align-items: center;
+    }
+
+    .services-section.et_pb_section {
+        padding-top: var(--space3);
+        padding-bottom: 0;
+    }
+
+    .gallery-section .et_pb_row {
+        padding-top: var(--space10);
+        padding-bottom: var(--space7);
+    }
+
+    .gallery-section.et_pb_section {
+        padding-bottom: 0;
+    }
+
+    .footer-section.et_pb_section {
+        padding-inline: 50px !important;
+    }
+
+    .footer-section .footer-text {
+        padding-block: var(--space3) !important;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1649px) {
+    /* end 1440 only */
+
+    .cta.et_pb_section {
+        padding-block: var(--space7) !important;
+    }
+
+    .empty-header-section.et_pb_section {
+        height: 88px;
+    }
+
+    .et_pb_menu .et_pb_menu__menu>nav>ul {
+        display: flex;
+        align-items: center !important;
+        gap: 30px !important;
+    }
+
+    .hero-section.et_pb_section {
+        padding-block: var(--space13) !important;
+    }
+
+    .header-section.et_pb_section {
+        padding-block: 0 !important;
+    }
+
+    .meet-the-doctor.et_pb_section {
+        padding-block: var(--space7);
+    }
+
+    .gallery-section.et_pb_section .et_pb_column {
+        min-height: 450px;
+    }
+
+    .our-treatments.et_pb_section {
+        padding-top: var(--space7);
+        padding-bottom: var(--space7);
+    }
+
+    .before-after-section.et_pb_section {
+        padding-block: var(--space7);
+    }
+
+    .trust-badges .et_pb_row {
+        align-items: center;
+    }
+
+    .services-section.et_pb_section {
+        padding-block: var(--space3);
+    }
+
+    .gallery-section .et_pb_row {
+        padding-top: var(--space10);
+        padding-bottom: var(--space7);
+    }
+
+    .gallery-section.et_pb_section {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 980px) {
+    .videos-row.et_pb_row {
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ---------------services page---------------- */
+    .about-page.services {
+        padding-bottom: 40px !important;
+    }
+
+    .orth-care-blurbs.et_pb_row,
+    .videos-row.et_pb_row {
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .initial-consultation-section .consultation-blurbs .et_pb_column {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .patients-page.orthodontic-care-section.et_pb_section {
+        padding-block: 40px 0px;
+    }
+
+    .services-page.options .options-row .et_pb_column {
+        border: 3px solid #FA6D4F;
+        background-color: #FFFDFC;
+        min-height: 325px;
+    }
+
+    .services-page.how-we-treat .et_pb_row {
+        padding-inline: 20px;
+    }
+
+    .services-page.options.et_pb_section {
+        padding-block: 50px !important;
+    }
+
+    .services-page.options .options-row {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        padding-bottom: 0 !important;
+    }
+
+    .services-page.options .options-row.et_pb_row::after {
+        position: absolute;
+    }
+
+    .services-page.environment .environment-blurbs-row .et_pb_column {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        justify-items: center;
+    }
+
+    /* ----------------about us page---------------- */
+
+    .contact-page .map-column .et_pb_code {
+        display: block !important;
+    }
+
+    .about-page .hero-contact-blurbs.et_pb_row {
+        gap: 20px;
+    }
+
+    .about-page.about-the-doctor-section .et_pb_row {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-top: 20px !important;
+    }
+
+    .about-page.awards-section .et_pb_blurb_content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-page.awards-section .et_pb_blurb_content .et_pb_blurb_container {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .about-page.our-team.et_pb_section {
+        padding-bottom: 50px !important;
+    }
+
+    .about-page .team-member-row.first-member {
+        padding-right: 20px !important;
+    }
+
+    .about-page .team-member-row.second-member {
+        padding-left: 20px !important;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .about-page .team-member-row.second-member.et_pb_row::after {
+        position: absolute;
+    }
+
+    #rmp_menu_trigger-237404 {
+        position: fixed;
+        top: 0px !important;
+    }
+
+    #rmp-menu-wrap-237404 .rmp-menu-current-item .rmp-menu-item-link {
+        background-color: white;
+    }
+
+    #rmp_menu_trigger-237404 #rmp-menu-item-237084 .rmp-menu-item-link a::before {
+        content: "";
+        width: 14px;
+        height: 14px;
+        background-image: url("/holycity-call");
+        position: absolute;
+        transform: translate(-150%, -10%);
+    }
+
+    .nav-button.menu-item .rmp-menu-item-link {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+
+    .rmp-container .rmp-menu-title .rmp-menu-title-image {
+        margin: 0 0 15px !important;
+    }
+
+    .et_pb_menu__wrap {
+        display: none !important;
+    }
+
+    .meet-the-doctor-section .et_pb_column_2 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .meet-the-doctor-section.et_pb_section {
+        padding-block: var(--space3) !important;
+    }
+
+
+    .meet-the-doctor-section .et_pb_row {
+        flex-direction: column !important;
+    }
+
+    /* end mobile and tablet */
+    .nav-row.et_pb_row {
+        display: flex;
+    }
+
+    .header-section .et_pb_menu_inner_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-section .et_pb_menu__logo img,
+    .footer-logo .et_pb_image_wrap img {
+        max-width: 165px;
+    }
+
+    .our-treatments .our-treatments-img.et_pb_row,
+    .before-after-row-images.et_pb_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .before-after-section.et_pb_section {
+        padding-block: var(--space3);
+    }
+
+    .our-treatments.et_pb_section {
+        padding-top: var(--space3);
+        padding-bottom: var(--space3);
+    }
+
+    .our-treatments-overlay .et_pb_text {
+        transform: translate(-50%);
+    }
+
+    .our-treatments-overlay .et_pb_text p {
+        font-size: 15px !important;
+        line-height: 21px !important;
+        padding-block: 10px !important;
+        padding-inline: 5px;
+    }
+
+    .our-treatments-overlay:before {
+        height: 60% !important;
+    }
+
+    .our-treatments.et_pb_text,
+    .before-after-section .et_pb_text {
+        margin-bottom: 0 !important;
+    }
+
+    .services-details-row .et_pb_column {
+        padding: var(--space3) var(--space1);
+    }
+
+    .services-details-row .et_pb_text_inner,
+    .subfooter-row .et_pb_text_inner {
+        text-align: center;
+    }
+
+    .trust-badges .et_pb_image {
+        margin-inline: auto !important;
+    }
+
+    .footer-section.et_pb_section {
+        padding-inline: var(--space2);
+    }
+
+    .meet-the-doctor.et_pb_section {
+        padding-block: var(--space3);
+    }
+
+    .meet-the-doctor .text-column.et_pb_column {
+        padding-block: 0 !important;
+    }
+
+    .hero-section.et_pb_section {
+        padding-block: 100px !important;
+    }
+
+    .footer-section .footer-text {
+        display: flex !important;
+        flex-direction: column;
+        padding-block: var(--space3) !important;
+        padding-inline: var(--padding-inline-section);
+        gap: 30px;
+    }
+
+    .footer-section .footer-pages {
+        justify-content: normal;
+        column-gap: 25px;
+    }
+
+    .testimonials .et_pb_code {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .trust-badges .et_pb_column {
+        margin-right: 0 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .gallery-section.et_pb_section .et_pb_column {
+        min-height: 300px !important;
+    }
+
+    .empty-header-section.et_pb_section {
+        height: 65px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 980px) {
+
+
+    /* ---------------about-page--------------- */
+    .patients-page.hero-section.et_pb_section {
+        background-position-x: 77%;
+    }
+
+    .about-page.awards-section .awards-row .et_pb_column {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* end tablet only */
+    .footer-section.et_pb_text {
+        padding-inline: 20px !important;
+    }
+
+    .footer-section .footer-text {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-block: var(--space4) !important;
+    }
+
+    .footer-section .footer-pages {
+        display: flex;
+        justify-content: flex-start !important;
+        gap: 50px !important;
+    }
+
+    .cta .et_pb_text_inner h2 {
+        text-align: center;
+    }
+
+    .contact-section .map-column iframe {
+        width: 100% !important;
+    }
+
+    .gallery-section.et_pb_section .et_pb_column {
+        min-height: 300px;
+    }
+
+    .gallery-section .et_pb_row {
+        display: flex;
+    }
+
+    .services-section.et_pb_section {
+        padding-inline: 0 !important;
+        padding-block: var(--space3);
+    }
+
+    .services-section .services-details-row {
+        padding-inline: var(--padding-inline-section);
+    }
+
+    .services-img-row {
+        min-height: 400px;
+    }
+
+    .testimonials .owl-carousel .owl-nav .owl-next:after {
+        right: 615px;
+    }
+
+    .our-treatments .et_pb_text {
+        margin-bottom: 0 !important;
+    }
+
+    .before-after-row-images .et_pb_column img {
+        min-height: 300px;
+        max-width: 410px;
+    }
+
+    .before-after-section h2 {
+        margin-bottom: 20px !important;
+    }
+
+    .testimonials-slider.et_pb_code {
+        max-width: 100% !important;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .testimonial-block,
+    .testimonial-title {
+        max-width: 450px !important;
+        margin-inline: auto !important;
+    }
+
+    .testimonial-title h2 {
+        text-align: center !important;
+    }
+
+    #page-container .testimonials-slider .owl-nav {
+        justify-content: center !important;
+    }
+
+    .cta.et_pb_section {
+        min-height: 400px !important;
+    }
+
+    .cta .et_pb_column {
+        margin-block: 200px;
+    }
+
+    .trust-badges.et_pb_section {
+        padding-block: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #WAVE-appointment-scheduler {
+        padding-bottom: 0 !important;
+    }
+
+    .wave-table td {
+        padding: 5px 3px 5px 3px !important;
+    }
+
+    .table-arrow-selector a {
+        font-size: 25px !important;
+    }
+
+    .entry-content thead th,
+    .entry-content tr th {
+        padding: 0 !important;
+    }
+
+    .wave-form-container h1.wave-form-title {
+        font-size: 40px !important;
+    }
+
+    .empty-header-section.et_pb_section {
+        height: 65px;
+    }
+
+    .contact-page.contact-testimonials.et_pb_section {
+        padding-bottom: 40px !important;
+    }
+
+    .contact-page.contact-section.et_pb_section {
+        padding-top: 40px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .contact-page.hero-section.et_pb_section {
+        padding-block: 100px !important;
+        background-size: cover;
+    }
+
+    /* -----------services-page----------- */
+    .orth-care-blurbs .et_pb_blurb {
+        padding: 40px 20px;
+    }
+
+    .services-page.how-we-treat.et_pb_section {
+        padding-bottom: 0 !important;
+    }
+
+    .services-page.environment.et_pb_section {
+        padding-block: 50px !important;
+    }
+
+    .services-page.options h4 {
+        font-family: "Larosa Light" !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+        letter-spacing: 9.5px !important;
+    }
+
+    .services-page.options .et_pb_text p {
+        padding-inline: 20px !important;
+        margin-top: auto;
+    }
+
+    /* end mobile only */
+    .about-page.hero-section.et_pb_section {
+        padding-block: 100px !important;
+    }
+
+    .about-page .hero-contact-blurbs.et_pb_row,
+    .patients-page .hero-contact-blurbs.et_pb_row {
+        gap: 0px !important;
+        padding-block: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-page .hero-contact-blurbs .et_pb_column,
+    .patients-page .hero-contact-blurbs .et_pb_column {
+        justify-content: flex-start !important;
+        gap: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .about-page.how-we-treat.et_pb_section {
+        padding-block: var(--space4) !important;
+    }
+
+    .about-page.how-we-treat.et_pb_section p,
+    .about-page.how-we-treat.et_pb_section h3 {
+        text-align: left !important;
+    }
+
+    .about-page.hero-section h1,
+    .patients-page.hero-section h1,
+    .services-page.hero-section h1,
+    .contact-page.hero-section h1 {
+        font-size: 37px !important;
+        font-weight: var(--fw-h1) !important;
+        line-height: 45px !important;
+        text-align: left !important;
+    }
+
+    .about-page.hero-section h2,
+    .patients-page.hero-section h2,
+    .services-page.hero-section h2,
+    .contact-page.hero-section h2 {
+        font-size: 23px !important;
+        line-height: 35px !important;
+        text-align: left !important;
+    }
+
+    /* .about-page.hero-section.mobile .et_pb_button_module_wrapper,
+    .patients-page.hero-section.mobile .et_pb_button_module_wrapper,
+    .services-page.hero-section.mobile .et_pb_button_module_wrapper {
+        margin-top: 0 !important;
+    } */
+
+    .about-page.meet-the-doctor-section .et_pb_column:not(.et-last-child) {
+        min-height: auto !important;
+    }
+
+    .about-page.awards-section.et_pb_section {
+        padding-top: 20px !important;
+    }
+
+    .about-page.awards-section .awards-row .et_pb_column {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 24px;
+    }
+
+    .hero-section h2 {
+        font-size: 25px !important;
+        line-height: 36px !important;
+    }
+
+    .hero-section h1 {
+        font-size: 37px !important;
+        font-weight: var(--fw-h1) !important;
+        line-height: 45px !important;
+    }
+
+    .services-details-row {
+        margin-top: -100px !important;
+        padding-inline: 0px;
+    }
+}
+
+.testimonials-first-col {
+    padding-inline: var(--padding-inline-section) !important;
+}
+
+.testimonial-block {
+    text-align: center !important;
+}
+
+.testimonial-title {
+    max-width: none !important;
+    margin-inline: auto !important;
+}
+
+.testimonial-title h2 {
+    text-align: center !important;
+}
+
+#page-container .testimonials-slider .owl-nav {
+    justify-content: center !important;
+}
+
+.before-after-section .before-after-row-images .et_pb_image_wrap img {
+    width: 100%;
+    object-fit: contain !important;
+}
+
+.before-after-section .girl:before,
+.before-after-section .woman:before,
+.before-after-section .man:before {
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+}
+
+.before-after-row-images .et_pb_column img {
+    min-height: 300px;
+    max-width: 410px;
+}
+
+.services-section.et_pb_section {
+    padding-inline: 0 !important;
+}
+
+.services-img-row {
+    background-position: 60% !important;
+}
+
+.trust-badges .et_pb_row,
+.services-section.et_pb_section {
+    padding-block: 0 !important;
+}
+
+.trust-badges .et_pb_image {
+    margin: auto;
+    min-width: 250px;
+    text-align: center !important;
+}
+
+.cta.et_pb_section {
+    min-height: 300px;
+}
+
+.cta .et_pb_column {
+    margin-block: 150px;
+}
+
+.cta .et_pb_text_inner h2 {
+    text-align: center;
+}
+
+/* .services-img-row.et_pb_row {
+        display: none;
+    } */
+
+.services-details-row {
+    margin-top: -200px;
+    padding-inline: 20px;
+}
+
+.gallery-section.et_pb_section .et_pb_column {
+    min-height: 500px;
+}
+
+.gallery-section.et_pb_section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.contact-section.et_pb_section {
+    padding-top: 0 !important;
+}
+
+.contact-section .et_pb_blurb_content a,
+.contact-section .et_pb_blurb_content p,
+.contact-section .et_pb_text_inner p {
+    font-size: 16px;
+}
+
+.footer-section a,
+.footer-section p,
+.footer-contact-details .et_pb_main_blurb_image .et-pb-icon {
+    font-size: 15px !important;
+}
+
+.footer-section .footer-contact-details .et_pb_main_blurb_image {
+    width: 35px !important;
+}
+
+.testimonials .owl-carousel .owl-nav .owl-next:before {
+    left: 10%;
+    transform: translatex(calc(-100% - 5px));
+}
+
+.our-treatments-img .et_pb_column {
+    min-height: 300px !important;
+}
+
+.our-treatments .et_pb_text {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 480px) and (max-width: 757px) {
+    .testimonials .owl-carousel .owl-nav .owl-next:after {
+        right: 50%;
+        left: unset !important;
+        transform: translatex(calc(100% - 345px));
+    }
+}
+
+@media (min-width: 375px) and (max-width: 479px) {
+    .testimonials .owl-carousel .owl-nav .owl-next:after {
+        right: 50%;
+        left: unset !important;
+        transform: translatex(calc(100% - 280px));
+    }
+}
+
+@media (min-width: 280px) and (max-width: 374px) {
+    .testimonials .owl-carousel .owl-nav .owl-next:after {
+        right: 50%;
+        left: unset !important;
+        transform: translatex(calc(100% - 200px));
+    }
+}
+
+@media (min-width: 604px) and (max-width: 980px) {
+    .before-after-section.et_pb_section {
+        padding-inline: 0 !important;
+    }
+
+    .before-after-row-images .et_pb_column img {
+        min-height: auto !important;
+        max-width: 100% !important;
+    }
+
+    .before-after-row-images.et_pb_row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px !important;
+    }
+
+    .before-after-section .man:before,
+    .before-after-section .woman:before,
+    .before-after-section .girl:before {
+        width: 80px;
+        height: 80px;
+    }
+}
